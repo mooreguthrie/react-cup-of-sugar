@@ -1,0 +1,58 @@
+section#post-section{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: left;
+    margin-bottom: 75px;
+    margin-top:75px;
+}
+
+form{
+    margin-top:10px;
+    font-size:17.5px;
+}
+
+input{
+    width:100%;
+}
+
+h1{
+    margin:0;
+}
+
+label{
+    margin-top:20px;
+    margin-bottom:2px;
+    text-align:left;
+}
+
+#headers{
+    display:flex;
+    justify-content: space-between;
+}
+
+#post-header{
+    position:relative;
+    align-items: flex-end;
+}
+
+
+#form-post-elements{
+    justify-content: left;
+  
+}
+
+#last-input{
+    margin-bottom: 20px;
+}
+
+#post-body {
+    background-color:rgba(255, 255, 255, .8);
+    padding:2%;
+    margin:0 75px;
+    border: 1px black solid;
+    border-radius:15px;
+    width:50%;
+    margin-bottom:50px;
+}
+

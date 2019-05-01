@@ -1,0 +1,43 @@
+#favor-card-edit {
+  border:black solid 1px;
+  border-radius:5px;
+  min-height:300px;
+  margin:auto;
+  padding:20px;
+  width:300px;
+  
+  margin-right:25px;
+}
+
+#favor-card-edit-body {
+  width:100%;
+}
+
+.favor-card-edit-header{
+text-align:left;
+margin:0;
+color:black;
+word-wrap: break-word;
+font-size:20px;
+font-weight:900;
+}
+
+.favor-card-edit-text{
+  text-align:left;
+  margin:0;
+  overflow: auto;
+  color:black;
+  // display:inline-block;
+  word-wrap: break-word;
+  font-size:14px;
+  white-space: wrap;
+
+}
+
+#favor-card-edit-img{
+    display: block;
+    max-width:100;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
