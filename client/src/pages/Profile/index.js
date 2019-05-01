@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import "./style.scss";
 
 //* components
-import FavorCard from "../../components/UI/FavorCard";
-import ReviewCard from '../../components/UI/ReviewCard';
+import FavorCardProfile from "../../components/UI/Cards/FavorCardProfile";
+import ReviewCard from '../../components/UI/Cards/ReviewCard';
 import ProfAbout from '../../components/ProfAboutSection';
 
 class Profile extends Component {
@@ -32,9 +32,10 @@ class Profile extends Component {
               <hr />
               <div className="scrollmenu">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                  <FavorCard />
-                  <FavorCard />
-                  <FavorCard />
+                  <FavorCardProfile />
+                  <FavorCardProfile />
+                  <FavorCardProfile />
+                  <FavorCardProfile />
                 </div>
               </div>
             </div>
@@ -47,6 +48,8 @@ class Profile extends Component {
               <hr />
               <div className="scrollmenu">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
+                  <ReviewCard />
+                  <ReviewCard />
                   <ReviewCard />
                   <ReviewCard />
                   <ReviewCard />

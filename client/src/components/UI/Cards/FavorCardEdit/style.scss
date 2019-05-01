@@ -1,0 +1,49 @@
+#favor-card-edit {
+  min-width:300px;
+  min-height:300px;
+  border:black solid 1px;
+  border-radius:5px;
+  margin:auto;
+  padding:10px;
+  margin-right:25px;
+}
+
+#favor-card-edit-body {
+  width:100%;
+}
+
+.favor-card-edit-header{
+  text-align:left;
+  margin:0;
+  margin-top:5px;
+  color:black;
+  word-wrap: break-word;
+  font-size:16px;
+  font-weight:900;
+  text-decoration:underline;
+}
+
+.favor-card-edit-text{
+  text-align:left;
+  margin:0;
+  overflow: auto;
+  color:black;
+  word-wrap: break-word;
+  font-size:14px;
+  white-space: normal;
+}
+
+#favor-card-edit-img{
+  display: block;
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+  margin:0 auto;
+}
+
+#favor-card-edit-button{
+  margin-top:15px;
+  width:100%;
+  padding:0;
+}

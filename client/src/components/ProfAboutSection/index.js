@@ -17,21 +17,20 @@ class ProfAbout extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-12">
+                        <div className="col-lg-4">
                             <img src={faker.image.avatar()}></img></div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12" id="about-info-header">Email: </div>
-                        <div className="col-lg-12" id="about-info">{faker.internet.email()}</div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12" ><span id="about-info-header">Location:</span><br />
-                            {faker.address.zipCode()}<br />
-                            {faker.address.county()}<br />
-                            {faker.address.state()}
+
+                        <div className="col-lg-8">
+                            <div className="col-lg-12"><span id="about-info-header">Email:</span>
+                                <p className="profile-location-detail">{faker.internet.email()}</p>
+                            </div>
+                            <div className="col-lg-12" ><span id="about-info-header-two">Location:</span>
+                                <p className="profile-location-detail">{faker.address.zipCode()}</p>
+                                <p className="profile-location-detail">{faker.address.county()}</p>
+                                <p className="profile-location-detail">{faker.address.state()}</p>
+                            </div>
+
                         </div>
-
-
 
                     </div>
                 </div>

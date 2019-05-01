@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 import CustomButton from '../../components/UI/CustomButton';
 import { Link } from 'react-router-dom';
 import "./style.scss";
-import FavorCardEdit from '../../components/UI/FavorCardEdit'
+import FavorCardEdit from '../../components/UI/Cards/FavorCardEdit'
 import Carousel from "../../components/UI/CarouselBootstrap";
 
 class EditFavors extends Component {
@@ -65,6 +65,7 @@ class EditFavors extends Component {
                                             <textarea id="edit-form-textarea" type="text" name="favor-message" placeholder="Lawnmower is in great condition! It could use a day at the spa, but otherwise it works perfectly."></textarea>
 
                                             <button type='submit'>Submit</button>
+                                            <button id='favor-delete-button' type='submit'>Delete</button>
                                         </form>
                                     </div>
 

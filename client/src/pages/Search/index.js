@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbars/Navbar";
 import Footer from '../../components/Footer';
 import "./style.scss";
 
-import FavorCard from '../../components/UI/FavorCard';
+import FavorCard from '../../components/UI/Cards/FavorCard';
 
 class Search extends Component {
   render() {
@@ -22,6 +22,9 @@ class Search extends Component {
 
                   <div className="scrollmenu">
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
+                      <FavorCard />
+                      <FavorCard />
+                      <FavorCard />
                       <FavorCard />
                       <FavorCard />
                       <FavorCard />
@@ -47,6 +50,9 @@ class Search extends Component {
                       <FavorCard />
                       <FavorCard />
                       <FavorCard />
+                      <FavorCard />
+                      <FavorCard />
+                      <FavorCard />
                     </div>
                   </div>
 
@@ -66,6 +72,9 @@ class Search extends Component {
 
                   <div className="scrollmenu">
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
+                      <FavorCard />
+                      <FavorCard />
+                      <FavorCard />
                       <FavorCard />
                       <FavorCard />
                       <FavorCard />

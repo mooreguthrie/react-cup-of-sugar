@@ -39,7 +39,7 @@ class EditProfile extends Component {
                                     <label>Bio:</label><br />
                                     <textarea type="text" name="bio" placeholder="Let your neighbors know who you are!"></textarea>
 
-                                    <CustomButton to="profile">Submit</CustomButton>
+                                    <button type="submit" href="/profile">Submit</button>
                                 </div>
                             </form>
                         </div>
